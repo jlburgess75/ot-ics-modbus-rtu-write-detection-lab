@@ -95,5 +95,17 @@ A Modbus write (FC06 or FC16) from an unexpected source may indicate:
 - Establish baseline register behavior
 - Alert on abnormal write frequency
 
+  ## Business Impact
+
+In real OT environments, unauthorized Modbus writes can:
+
+- Manipulate industrial process setpoints
+- Interrupt production operations
+- Damage physical equipment
+- Introduce safety risks
+
+This lab demonstrates how such activity can be identified, analyzed, and documented from an OT-aware SOC perspective.
+
+
 
 
